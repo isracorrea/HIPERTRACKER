@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiperTracker - Painel de Hábitos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>HiperTracker</h1>
+        <p>Acompanhe a sua dieta e metas de suplementação</p>
+    </header>
+    <main>
+        <!-- Secção de entrada de dados com label ligado ao campo -->
+        <section class="input-section">
+            <label for="habitInput">Novo hábito (ex: Tomar Complexo B às 10h):</label>
+            <div class="input-group">
+                <input type="text" id="habitInput" placeholder="Digite aqui o seu hábito...">
+                <button id="addBtn">Adicionar</button>
+            </div>
+            <!-- Área para mostrar mensagem se a entrada estiver vazia -->
+            <p id="messageArea" class="hidden"></p>
+        </section>
+        
+        <!-- Secção de resultados -->
+        <section class="result-section">
+            <h2>Os meus hábitos de hoje</h2>
+            <ul id="habitList"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
