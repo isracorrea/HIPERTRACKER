@@ -12,6 +12,3 @@ O HiperTracker é uma aplicação web minimalista focada no registo diário de h
 - **Ferramenta:** Google Gemini.
 - **Para quê:** A Inteligência Artificial foi utilizada para definir o âmbito do projeto (na Etapa 1) e redigir o código base em HTML, CSS e JavaScript (na Etapa 2). Todo o código gerado garante boas práticas como o uso de HTML semântico, inserção de dados com `textContent` (prevenindo vulnerabilidades) e a implementação de comentários nas funções. Todo o output foi lido e o funcionamento verificado no navegador local.
 
-## Aba Rede (Network)
-*(Coloque a imagem/captura de ecrã exigida aqui)*
-**Explicação:** A captura de ecrã apresenta o carregamento principal dos ficheiros locais através de uma requisição com sucesso, verificada pelo método GET e estado 200. Como a aplicação se enquadra na Trilha C, não são feitas requisições a APIs externas e a lógica trabalha unicamente com a memória interna (localStorage) do navegador.
